@@ -1,0 +1,13 @@
+@import "variables";
+
+.section-fifth {
+  background: $linear-gradient-2;
+  padding-top: 64px;
+  padding-bottom: 53px;
+}
+
+@media (max-width: 575.98px)  {
+  .section-fifth {
+    padding-top: 30px;
+  }
+}

@@ -1,0 +1,107 @@
+@import "variables";
+
+.section-first {
+  padding-top: 24px;
+  padding-bottom: 50px;
+  background: url("../img/grey-bg.png") no-repeat center;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.section-info__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-info_btn-width {
+  width: 204px;
+}
+
+.section-info__text {
+  span {
+    font-weight: bold;
+    font-size: $font-size-2;
+    line-height: 19px;
+    color: $gray-555;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: $font-size-2;
+    line-height: 19px;
+    color: $gray-555;
+  }
+}
+
+.section-info__wrapper-info {
+  align-items: flex-start;
+}
+
+.section-info__phone {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-info__phone-link {
+  font-weight: bold;
+  font-size: $font-size-6;
+  line-height: 33px;
+  color: $gray-333;
+
+  &:hover {
+    text-decoration: none;
+    color: $gray-333;
+  }
+}
+
+.section-info__social {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.section-info__social-link {
+  margin-right: 6px;
+  width: 30px;
+  height: 30px;
+  display: block;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.section-info__social-link-vb {
+  background: url("../img/viber-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.section-info__social-link-wp {
+   background: url("../img/whatsapp-icon.svg") no-repeat center;
+   background-size: 100% auto;
+ }
+
+.section-info__social-link-tg {
+  background: url("../img/telegram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+@media (max-width: 991.98px) {
+  .section-info__phone-link {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-first {
+    background: #F5F5F5;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+  }
+
+  .section-info__wrapper-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

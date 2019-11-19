@@ -1,0 +1,341 @@
+@import "variables";
+
+.media {
+  display: flex;
+  flex-direction: column;
+}
+
+.media.media_how-we-work {
+  background: #ffffff;
+  padding: 31px 17px 0 25px;
+  height: 100%;
+  min-height: 428px;
+  position: relative;
+  overflow: hidden;
+
+  .media-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .media-header__number {
+    min-width: 50px;
+    height: 50px;
+    background: $linear-gradient-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 16px;
+
+    span {
+      font-weight: bold;
+      font-size: $font-size-5;
+      line-height: 28px;
+      color: $color-number-8;
+    }
+  }
+
+  .media-header__title {
+    font-weight: bold;
+    font-size: $font-size-5;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $color-number-3;
+  }
+
+  .media__text {
+    font-weight: 500;
+    font-size: $font-size-3;
+    line-height: 25px;
+    color: $color-number-1;
+    margin-bottom: 0;
+  }
+
+  .media-img-bottom_women {
+    background: url("../img/women-phone-img.jpg") no-repeat center;
+    background-size: 100% auto;
+    width: 100%;
+    max-width: 270px;
+    height: 228px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    right: 0;
+  }
+
+  .media-img-bottom_wrench {
+    background: url("../img/wrench-img.jpg") no-repeat center;
+    background-size: 100% auto;
+    width: 194px;
+    height: 144px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+  }
+
+  .media-img-bottom_repairs {
+    background: url("../img/repairer-washing.jpg") no-repeat center;
+    background-size: 100% auto;
+    width: 100%;
+    max-width: 270px;
+    height: 228px;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+  }
+
+  .media__text-red {
+    color: #F64065;
+  }
+
+  .media__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 226px;
+    margin-bottom: 42px;
+    margin-top: 21px;
+  }
+
+  .media__list-icon_visa {
+    background: url("../img/Visa_Inc._logo.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 72px;
+    height: 23px;
+    display: block;
+  }
+
+  .media__list-icon_mc {
+    background: url("../img/Mastercard-logo.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 50px;
+    height: 39px;
+    display: block;
+  }
+
+  .media__list-icon_mir {
+    background: url("../img/mir-logo.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 64px;
+    height: 19px;
+    display: block;
+  }
+
+  .media__block {
+    margin-top: auto;
+    padding-bottom: 42px;
+    display: flex;
+    align-items: center;
+  }
+
+  .recommended-logo {
+    background: url("../img/recommended-logo.svg") no-repeat center;
+    background-size: 100% auto;
+    min-width: 70px;
+    height: 70px;
+    display: block;
+    margin-right: 20px;
+  }
+
+  .media__block-text {
+    font-weight: 500;
+    font-size: $font-size-3;
+    line-height: 25px;
+    color: $color-number-5;
+  }
+}
+
+.media.media_proposal {
+  align-items: center;
+
+  .media-wrapper-icon {
+    min-width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 47px;
+    margin-top: 62px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .media-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: $font-size-4;
+    line-height: 23px;
+    color: #FFFFFF;
+    min-height: 46px;
+    margin-bottom: 12px;
+  }
+
+  .media-text {
+    font-size: $font-size-2;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  .media-icon {
+    display: block;
+  }
+}
+
+.button-arrow-group {
+  margin-top: 73px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  max-width: 421px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-arrow-group__arrow {
+  display: block;
+  position: absolute;
+  width: 56px;
+  height: 53px;
+  top: -18px;
+
+}
+
+.button-arrow-group__arrow-left {
+  background: url("../img/arrow-left.svg") no-repeat center;
+  background-size: 100% auto;
+  left: 0;
+}
+
+.button-arrow-group__arrow-right {
+  background: url("../img/arrow-right.svg") no-repeat center;
+  background-size: 100% auto;
+  right: 0;
+}
+
+.media-icon__home-icon {
+  background: url("../img/home-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 74px;
+  height: 74px;
+}
+
+.media-icon__tool-icon {
+  background: url("../img/tool-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 70px;
+  height: 70px;
+}
+
+.media-icon__racing-icon {
+  background: url("../img/racing-icon.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 70px;
+  height: 70px;
+}
+
+.media-icon__recommended {
+  background: url("../img/recommended-logo.svg") no-repeat center;
+  background-size: 100% auto;
+  width: 70px;
+  height: 70px;
+}
+
+.media.media_master {
+  background: #FFFFFF;
+  border-radius: 28px;
+  overflow: hidden;
+
+  .media__content {
+    padding: 38px 35px 50px;
+  }
+
+  .media__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .media__header-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+    width: 100%;
+    max-width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 207px;
+    display: block;
+  }
+
+  .media__title {
+    font-weight: bold;
+    font-size: $font-size-3;
+    line-height: 21px;
+    text-align: center;
+    color: $gray-555;
+    margin-bottom: 24px;
+    display: block;
+  }
+
+  .media__text {
+    font-size: $font-size-2;
+    line-height: 19px;
+    color: $gray-555;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .media.media_how-we-work {
+
+    .media-img-bottom_women {
+      margin-left: auto;
+      margin-right: auto;
+      bottom: -4px;
+    }
+
+    .media-img-bottom_repairs,
+    .media__list,
+    .media__block {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+  }
+}
+
+@media (max-width: 991.98px) {
+  .media.media_how-we-work {
+    min-height: auto;
+
+    .media-img-bottom_repairs,
+    .media-img-bottom_women {
+      position: static;
+    }
+
+    .media-img-bottom_wrench {
+      position: relative;
+      margin-left: auto;
+    }
+  }
+}
+
+@media (max-width: 575.98px) {
+  .button-arrow-group__arrow {
+    display: none;
+  }
+
+  .button-arrow-group {
+    margin-top: 40px;
+  }
+}

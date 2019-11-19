@@ -1,0 +1,204 @@
+@import "variables";
+
+.footer {
+  background: $linear-gradient-2;
+  padding-top: 50px;
+  overflow: hidden;
+
+  .h2 {
+    margin-bottom: 36px;
+    text-align: left;
+    font-size: 41px;
+  }
+
+  .footer__number {
+    font-weight: 900;
+    font-size: $font-size-5;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $color-number-7;
+    margin-bottom: 48px;
+    display: block;
+
+    a {
+      color: $color-number-7;
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-messenger {
+  display: flex;
+  align-items: center;
+}
+
+.footer-messenger__title {
+  font-weight: 900;
+  font-size: $font-size-5;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer-messenger__wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+}
+
+.footer-messenger__list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-messenger__link {
+  min-width: 44px;
+  height: 44px;
+  display: block;
+  margin-right: 19px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer-messenger__text {
+  font-size: $font-size-1;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  margin-top: 8px;
+}
+
+.footer__text {
+  font-weight: 900;
+  font-size: $font-size-5;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-top: 62px;
+  display: block;
+}
+
+.footer-form {
+  margin-bottom: 85px;
+  margin-top: 38px;
+
+  input {
+    max-width: 340px;
+  }
+}
+
+.footer-bottom-block {
+  background: rgba(0, 0, 0, 0.2);
+  padding-top: 28px;
+  padding-bottom: 27px;
+}
+
+.footer-bottom-block__text {
+  font-size: $font-size-2;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer-bottom-block__wrapper {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-block__wrapper-title {
+  margin-right: 24px;
+  margin-left: auto;
+}
+
+.footer-bottom-block__list {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bottom-block__item {
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.fb-icon {
+  background: url("../img/facebook-logo.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.int-icon {
+  background: url("../img/instagram-logo.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.vk-icon {
+  background: url("../img/vk-logo.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.footer-img {
+  background: url("../img/women-washing-machine-img.png") no-repeat center;
+  background-size: 100% auto;
+  width: 710px;
+  height: 748px;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+
+@media (max-width: 991.98px)  {
+  .footer-img {
+    display: none;
+  }
+
+  .footer-messenger {
+    justify-content: space-between;
+  }
+
+  .footer-form input {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .footer-bottom-block__list {
+    margin-right: auto;
+  }
+
+  .footer-bottom-block__wrapper {
+    margin-top: 20px;
+  }
+
+  .footer-bottom-block__text {
+    display: block;
+    margin-left: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .footer .h2 {
+    font-size: 24px;
+  }
+
+  .footer-messenger {
+    flex-direction: column;
+  }
+
+  .footer-messenger__title {
+    text-align: center;
+  }
+
+  .footer-messenger__wrapper {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}

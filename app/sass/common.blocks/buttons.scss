@@ -1,0 +1,59 @@
+@import "variables";
+
+.btn.button-main {
+  height: 50px;
+  border-radius: 36px;
+  font-weight: bold;
+  font-size: $font-size-2;
+  line-height: 19px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    background-position: 100% 0;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.btn.btn-secondary-color {
+  background-image: $linear-gradient-4;
+  color: #ffffff;
+
+  &:hover {
+    color: $color-number-9;
+    border: 1px solid $color-number-9;
+  }
+}
+
+.btn.btn-primary-color {
+  background-image: $linear-gradient-3;
+  color: #ffffff;
+
+  &:hover {
+    color:  $color-number-2;
+    border: 1px solid $color-number-2;
+  }
+}
+
+.btn.btn-light-color {
+  background-image: $linear-gradient-5;
+  color: $color-number-2;
+  width: 250px;
+
+  &:hover {
+    background-color: $linear-gradient-1;
+    color: #ffffff;
+  }
+}
+
+.form-button {
+  width: 204px;
+}
+
+@media (max-width: 575.98px) {
+  .btn.btn-primary-color {
+    width: 100%;
+  }
+}

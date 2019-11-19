@@ -1,0 +1,236 @@
+@import "variables";
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+//.card-header.collapsed {
+//  background:#ccc;
+//}
+//.card-header:not(.collapsed) {
+//  background:#ee6666;
+//}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+  width: 215px;
+
+  i {
+    background: url("../img/washing-machine-logo.svg") no-repeat center;
+    background-size: 100% auto;
+    width: 53px;
+    height: 53px;
+    display: block;
+    margin-right: 17px;
+  }
+
+  span {
+    font-weight: 900;
+    font-size: $font-size-5;
+    line-height: 28px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $gray-555;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+h2.h2 {
+  font-weight: 900;
+  font-size: $font-size-8;
+  line-height: 49px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.h2_white {
+  color: #FFFFFF;
+}
+
+.request-model-form {
+  max-width: 565px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .input-group {
+    position: relative;
+  }
+
+  .input-group-append {
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    z-index: 10;
+  }
+
+  button {
+    border-radius: 36px !important;
+    min-width: 180px;
+  }
+
+  input {
+    height: 50px;
+    background: #F0F0F0;
+    border: 1px solid #FA683E;
+    border-radius: 36px !important;
+    font-weight: bold;
+    font-size: $font-size-2;
+    line-height: 19px;
+    color: $gray-555;
+    padding-right: 190px;
+    padding-left: 23px;
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+      background: #F0F0F0;
+      border: 1px solid #FA683E;
+    }
+  }
+}
+
+.container-bg-washingMachines {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1360px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  position: relative;
+  z-index: 20;
+}
+
+.form-control.main-input {
+  height: 50px;
+  background: $color-number-10;
+  border: 1px solid $color-number-11;
+  border-radius: 36px;
+  font-weight: bold;
+  font-size: $font-size-2;
+  line-height: 19px;
+  color: $gray-555;
+  padding-left: 30px;
+
+  &:focus {
+    border: 1px solid $color-number-11;
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.main-form_section-seventh {
+  margin-top: 20px;
+}
+
+.viber-icon {
+  background: url("../img/viber-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.whatsapp-icon {
+  background: url("../img/whatsapp-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.telegram-icon {
+  background: url("../img/telegram-icon.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
+.menu-burger {
+  .container {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {opacity: 0;}
+
+  .change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+}
+
+@media (min-width: 1200px) {
+  body .container {
+    max-width: 1200px;
+  }
+
+  .menu-burger {
+    display: none;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .container-bg-washingMachines,
+  .section-seventh__bg-1,
+  .section-seventh__bg-2,
+  .section-seventh__bg-3 {
+    display: none;
+  }
+
+  main {
+    padding-top: 76px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  h2.h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h2.h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: normal;
+  }
+
+  .request-model-form {
+    input {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 100% !important;
+    }
+
+    button {
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    .input-group {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .request-model-form .input-group-append {
+    position: static;
+  }
+}

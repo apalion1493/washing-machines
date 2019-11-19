@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="libs/animate-css/animate.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-mobil-menu">
+        <div class="row">
+            <div class="col-xl-10">
+                <nav class="header-navigation header-navigation_list">
+                    <a class="header-navigation-link" href="#anchor-first">Как мы работаем</a>
+                    <a class="header-navigation-link" href="#anchor-second">Цены на ремонт</a>
+                    <a class="header-navigation-link header-navigation-link_yellow" href="#anchor-third">Получить скидку 30%</a>
+                    <a class="header-navigation-link" href="#anchor-fourth">Отзывы</a>
+                    <a class="header-navigation-link" href="#anchor-fifth">Наши мастера</a>
+                    <a class="header-navigation-link" href="#anchor-sixth">Задать вопрос</a>
+
+                    <i class="header-navigation__close" onclick="myFunction()">
+                        <span></span>
+                    </i>
+                </nav>
+            </div>
+            <div class="col-xl-2">
+                <a class="header-navigation-link header-navigation-link_yellow d-flex justify-content-end" href="#">Ремонт посудомоек</a>
+            </div>
+        </div>
+        <div class="menu-burger">
+            <div class="container" onclick="myFunction()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="section section-first section-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 order-md-1 order-xl-1 col-xl-5">
+                    <div class="section-info__wrapper">
+                        <a class="main-logo" href="#">
+                            <i></i>
+                            <span>washing repair</span>
+                        </a>
+                        <button class="btn button-main btn-secondary-color section-info_btn-width" >Заказать звонок</button>
+                    </div>
+                </div>
+                <div class="col-12 order-md-3 order-xl-2 col-xl-3">
+                    <div class="section-info__wrapper section-info__wrapper-info">
+                        <div class="section-info__text">
+                            <span>Режим работы:</span>
+                            <p>круглосуточно</p>
+                        </div>
+                        <div class="section-info__text">
+                            <span>Прием заявок:</span>
+                            <p>ежедневно, <br>
+                                c 8:00 до 23 00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-md-2 order-xl-3 col-xl-4 pl-xl-0">
+                    <div class="section-info__wrapper">
+                        <div class="section-info__phone">
+                            <a class="section-info__phone-link" href="tel:+74959681953">+7 (495) 968-19-53</a>
+                            <a class="section-info__phone-link" href="tel:+74959681954">+7 (495) 968-19-54</a>
+                        </div>
+                        <div class="section-info__social">
+                            <a class="section-info__social-link section-info__social-link-vb" href="#"></a>
+                            <a class="section-info__social-link section-info__social-link-wp" href="#"></a>
+                            <a class="section-info__social-link section-info__social-link-tg" href="#"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 d-flex justify-content-center">
+                    <img class="section-image" src="img/men-waching-machine-img.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="section-second-wrapper">
+                        <h1 class="h1 section-second-title mb-4">
+                            <span class="section-second-title__color">Ремонт на дому </span>
+                            стиральных машин
+                        </h1>
+                        <span class="section-second-slogan">Работаем без выходных по <br> городу Одинцово</span>
+
+                        <div class="section-second-discount wow bounceInRight">
+                            <p class="section-second-discount__text flex-column"><span class="section-second-discount__uppercase">СКИДКА </span>при заказе до 14 ноября</p>
+                            <div class="section-second-discount__border">
+                                <span class="section-second-discount__text ">до <span class="section-second-discount__percent">30%</span></span>
+                            </div>
+                        </div>
+                        <button class="btn button-main btn-primary-color section-second__btn" type="button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-third" id="anchor-first">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <h2 class="h2 h2_white" >Как мы работаем</h2>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="media media_how-we-work media-section-third-first wow bounceIn">
+                        <div class="media-header">
+                            <div class="media-header__number">
+                                <span>1</span>
+                            </div>
+                            <span class="media-header__title">Делаете заказ</span>
+                        </div>
+                        <p class="media__text">Вы договариваетесь с
+                            мастером о времени встречи.</p>
+                        <span class="media-img-bottom media-img-bottom_women"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 mb-4 mb-xl-0">
+                    <div class="media media_how-we-work wow bounceIn" data-wow-delay="0.2s">
+                        <div class="media-header">
+                            <div class="media-header__number">
+                                <span>2</span>
+                            </div>
+                            <span class="media-header__title">Выезд мастера</span>
+                        </div>
+                        <p class="media__text">
+                            Мастер БЕСПЛАТНО приезжает к вам домой для ремонта и диагностики. <br><br>
+                            <span class="media__text-red">Не нужно никуда везти машинку.</span>
+                        </p>
+
+                        <span class="media-img-bottom media-img-bottom_wrench"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6 mb-4 mb-lg-0">
+                    <div class="media media_how-we-work wow bounceIn" data-wow-delay="0.4s">
+                        <div class="media-header">
+                            <div class="media-header__number">
+                                <span>3</span>
+                            </div>
+                            <span class="media-header__title">Ремонт <br> на месте</span>
+                        </div>
+                        <p class="media__text">Мы берем все запчасти с собой, поэтому ремонт сразу после диагностики</p>
+                        <span class="media-img-bottom media-img-bottom_repairs"></span>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-6">
+                    <div class="media media_how-we-work media-section-third-last wow bounceIn" data-wow-delay="0.6s">
+                        <div class="media-header">
+                            <div class="media-header__number">
+                                <span>4</span>
+                            </div>
+                            <span class="media-header__title">Оплата и гарантия</span>
+                        </div>
+                        <p class="media__text">После ремонта оплачивается работа. Мы принимаем наличные и переводы на карту. </p>
+                        <div class="media__list">
+                            <a class="media__list-icon media__list-icon_visa" href="#"></a>
+                            <a class="media__list-icon media__list-icon_mc" href="#"></a>
+                            <a class="media__list-icon media__list-icon_mir" href="#"></a>
+                        </div>
+                        <div class="media__block">
+                            <i class="recommended-logo"></i>
+                            <span class="media__block-text">Гарантия на ремонт 1 год</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="button-arrow-group">
+                        <i class="button-arrow-group__arrow button-arrow-group__arrow-left wow tada"></i>
+                        <button class="btn button-main btn-light-color" type="button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                        <i class="button-arrow-group__arrow button-arrow-group__arrow-right wow tada"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-fourth" id="anchor-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2">Цены на ремонт</h2>
+                </div>
+                <div class="col-lg-8">
+                    <div class="price-block-wrapper">
+                        <table class="table price-block-table">
+                            <thead>
+                            <tr>
+                                <th scope="col">Диагностика</th>
+                                <td class="text-orange" scope="row">Бесплатно!</td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <th scope="row">Мелкий ремонт (без разбора машинки)</th>
+                                <td>от 800 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена манжеты люка</th>
+                                <td>от 1300 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена сливного насоса</th>
+                                <td>от 1500 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена ТЭНа</th>
+                                <td>от 1500 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена узла стирки, замена опор, замена бака</th>
+                                <td>от 3000 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Устранение засора</th>
+                                <td>от 1200 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена ремня</th>
+                                <td>от 1500 руб.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Замена (ремонт) амортизаторов</th>
+                                <td>от 3000 руб.</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="price-block-warning">
+                            <i class="warning-icon"></i>
+                            <span class="price-block-warning__text">Цены предоставлены в ознакомительном порядке. <br> Конечная цена зависит от модели и износа машинки</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <img class="image-washing-machine" src="img/image-washing-machine.jpg" alt="стиральная машинка">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section section-fifth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 h2_white">Что мы вам предложим</h2>
+                </div>
+                <div class="col-lg-3">
+                    <div class="media media_proposal" >
+                        <div class="media-wrapper-icon  wow bounceIn">
+                            <i class="media-icon media-icon__home-icon"></i>
+                        </div>
+                        <span class="media-title">Ремонт на дому</span>
+                        <p class="media-text">Все работы проводятся у Вас на дому, это в значительной степени облегчает жизнь клиентам, экономит их средства, так как теперь нет нужды искать автомобиль с целью транспортировки в сервисный центр.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="media media_proposal">
+                        <div class="media-wrapper-icon wow bounceIn" data-wow-delay="0.2s">
+                            <i class="media-icon media-icon__tool-icon"></i>
+                        </div>
+                        <span class="media-title">Используем <br> оригинальные запчасти</span>
+                        <p class="media-text">Все работы проводятся у Вас на дому, это в значительной степени облегчает жизнь клиентам, экономит их средства, так как теперь нет нужды искать автомобиль с целью транспортировки в сервисный центр.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="media media_proposal">
+                        <div class="media-wrapper-icon wow bounceIn" data-wow-delay="0.4s">
+                            <i class="media-icon media-icon__racing-icon"></i>
+                        </div>
+                        <span class="media-title">Мастер приезжает <br> в течении 30 минут</span>
+                        <p class="media-text">Скоростные темпы ликвидации неисправности – то, чего нам удалось достичь благодаря оперативному выезду мастера на дом, наличию необходимых инструментов и комплектующих материалов.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="media media_proposal">
+                        <div class="media-wrapper-icon wow bounceIn" data-wow-delay="0.6s">
+                            <i class="media-icon media-icon__recommended"></i>
+                        </div>
+                        <span class="media-title">Работаем по договору с гарантией 1 год</span>
+                        <p class="media-text">Мы гарантируем качество предоставленных услуг, поэтому на все виды работ наши клиенты обязательно получают официальный гарантийный талон сроком до 36 месяцев </p>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="button-arrow-group">
+                        <i class="button-arrow-group__arrow button-arrow-group__arrow-left wow tada"></i>
+                        <button class="btn button-main btn-light-color" type="button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                        <i class="button-arrow-group__arrow button-arrow-group__arrow-right wow tada"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-sixth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2">Мы ремонтируем бытовую технику <br> всех марок и моделей</h2>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-vestfrost"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-indesit"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-samsung"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-lg"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-bosch"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-zerowatt"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-bauknecht"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-CE"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-hansa"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-gorenje"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-atlant"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="mark-logo">
+                        <i class="mark-logo__icon mark-logo__icon-haier"></i>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="section-sixth__wrapper">
+                        <span class="section-sixth__text section-sixth__text-color">А также остальные 120 марок</span>
+                        <p class="section-sixth__text">Укажите свою машинку и мы сделаем бесплатную консультацию</p>
+                    </div>
+                    <div class="request-model-form">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Модель вашей стиральной машины" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn button-main btn-primary-color" type="button" id="button-addon2">Отправить запрос</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-seventh" id="anchor-third">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-seventh__wrapper wow fadeInRight" data-wow-duration="1s">
+                        <span class="section-seventh__title">Закажите ремонт прямо сейчас и получите скидку</span>
+                        <span class="section-seventh__percent">30%</span>
+                        <i class="section-seventh__arrow"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <form class="main-form main-form_section-seventh">
+                        <div class="form-group mb-4">
+                            <input type="text" class="form-control main-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group mb-4">
+                            <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
+                        </div>
+                        <button type="submit" class="btn button-main btn-primary-color form-button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-bg-washingMachines">
+            <img class="container-bg-washingMachines__img wow fadeInLeft"  src="img/washing-machine-img-1.png" alt="ст. маш.">
+            <img class="container-bg-washingMachines__img wow fadeInLeft" data-wow-delay="0.2s" src="img/washing-machine-img-2.png" alt="ст. маш.">
+            <img class="container-bg-washingMachines__img wow fadeInLeft" data-wow-delay="0.4s" src="img/washing-machine-img-3.png" alt="ст. маш.">
+            <img class="container-bg-washingMachines__img wow fadeInLeft" data-wow-delay="0.6s" src="img/washing-machine-img-4.png" alt="ст. маш.">
+            <img class="container-bg-washingMachines__img wow fadeInLeft" data-wow-delay="0.8s" src="img/washing-machine-img-5.png" alt="ст. маш.">
+        </div>
+        <div class="section-seventh__bg-1"></div>
+        <div class="section-seventh__bg-2"></div>
+        <div class="section-seventh__bg-3"></div>
+    </section>
+    <section class="section section-eighth" id="anchor-fourth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2">Послушайте отзывы наших клиентов</h2>
+                    <span class="section-caption">Мы уважаем клиентов, а они отвечают нам взаимностью</span>
+                </div>
+
+                <div class="col-12">
+                    <div class="reviews-list">
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-1.png)"></i>
+                            </div>
+                            <span class="review-block__name">Василий Петрович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-2.png)"></i>
+                            </div>
+                            <span class="review-block__name">Надежда Петровна</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-3.png)"></i>
+                            </div>
+                            <span class="review-block__name">Максим Иванович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-4.png)"></i>
+                            </div>
+                            <span class="review-block__name">Анастасия Сорокина</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-1.png)"></i>
+                            </div>
+                            <span class="review-block__name">Василий Петрович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-2.png)"></i>
+                            </div>
+                            <span class="review-block__name">Надежда Петровна</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-3.png)"></i>
+                            </div>
+                            <span class="review-block__name">Максим Иванович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-4.png)"></i>
+                            </div>
+                            <span class="review-block__name">Анастасия Сорокина</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-1.png)"></i>
+                            </div>
+                            <span class="review-block__name">Василий Петрович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-2.png)"></i>
+                            </div>
+                            <span class="review-block__name">Надежда Петровна</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-3.png)"></i>
+                            </div>
+                            <span class="review-block__name">Максим Иванович</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+                        <div class="review-block">
+                            <div class="review-block__photo">
+                                <i style="background-image: url(img/client-face-4.png)"></i>
+                            </div>
+                            <span class="review-block__name">Анастасия Сорокина</span>
+                            <p class="review-block__text">Был сломан шланг насоса.</p>
+                            <div class="review-block__audio">
+                                <button class="review-block__audio-btn"></button>
+                                <span class="review-block__audio-text">Послушать отзыв</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-ninth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2 h2_white">О нашей компании</h2>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0">
+                    <div class="statistics-block">
+                        <div class="statistics-block__bg  wow jackInTheBox">
+                            <span class="statistics-block__number">11</span>
+                        </div>
+                        <span class="statistics-block__text">Лет на рынке услуг</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0">
+                    <div class="statistics-block">
+                        <div class="statistics-block__bg  wow jackInTheBox" data-wow-delay="0.2s" >
+                            <span class="statistics-block__number">1000+</span>
+                        </div>
+                        <span class="statistics-block__text">Сделанных заказов</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                    <div class="statistics-block">
+                        <div class="statistics-block__bg  wow jackInTheBox" data-wow-delay="0.4s">
+                            <span class="statistics-block__number">30</span>
+                        </div>
+                        <span class="statistics-block__text">Специалистов в штате</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-lg-0">
+                    <div class="statistics-block">
+                        <div class="statistics-block__bg  wow jackInTheBox" data-wow-delay="0.6s">
+                            <span class="statistics-block__number">100%</span>
+                        </div>
+                        <span class="statistics-block__text">Довольных заказчиков</span>
+                    </div>
+                </div>
+                <div class="col-12" id="anchor-fifth">
+                    <span class="section-ninth__title">Наши мастера</span>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-xl-0 mb-4">
+                    <div class="media media_master">
+                        <div class="media__header">
+                            <i class="media__header-img" style="background-image: url(img/repairer-img-1.jpg)"></i>
+                        </div>
+                        <div class="media__content">
+                            <span class="media__title">Василий Петрович</span>
+                            <p class="media__text">Инженер-механик, мастер по ремонту стиральных машин и холодильников с опытом 12 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-xl-0 mb-4">
+                    <div class="media media_master">
+                        <div class="media__header">
+                            <i class="media__header-img"  style="background-image: url(img/repairer-img-2.jpg)"></i>
+                        </div>
+                        <div class="media__content">
+                            <span class="media__title">Василий Петрович</span>
+                            <p class="media__text">Инженер-механик, мастер по ремонту стиральных машин и холодильников с опытом 12 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 mb-4 mb-lg-0">
+                    <div class="media media_master">
+                        <div class="media__header">
+                            <i class="media__header-img"  style="background-image: url(img/repairer-img-3.jpg)"></i>
+                        </div>
+                        <div class="media__content">
+                            <span class="media__title">Василий Петрович</span>
+                            <p class="media__text">Инженер-механик, мастер по ремонту стиральных машин и холодильников с опытом 12 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="media media_master">
+                        <div class="media__header">
+                            <i class="media__header-img"  style="background-image: url(img/repairer-img-4.jpg)"></i>
+                        </div>
+                        <div class="media__content">
+                            <span class="media__title">Василий Петрович</span>
+                            <p class="media__text">Инженер-механик, мастер по ремонту стиральных машин и холодильников с опытом 12 лет</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="button-arrow-group">
+                        <button class="btn button-main btn-light-color" type="button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-tenth">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="h2">Ремонт стиральных машин на дому</h2>
+                </div>
+                <div class="col-12">
+                    <p class="main-text">Мы сможем решить Вашу проблему со стиральной машины – от простейшего засора до ремонта модуля управления. Именно Вашей марки, Вашей модели. Вызвать мастера можно по телефону +7 (499) 588-99-71 или через наш сайт.</p>
+                    <p class="main-text">Бесплатная диагностика как раз таки и предназначена для составления сметы и определения итоговой стоимости ремонта стиральной машины. Мастер установит причину поломки, выяснит потребуется ли замена деталей или есть ли возможность восстановить работу старых, какие работы необходимо проделать. Если требуются расходные материалы, мастер сделает запрос на склад о наличии и цене. На основе этой информации будет озвучена окончательная стоимость ремонта стиральной машины.</p>
+                    <p class="main-text">Бесплатная диагностика как раз таки и предназначена для составления сметы и определения итоговой стоимости ремонта стиральной машины. Мастер установит причину поломки, выяснит потребуется ли замена деталей или есть ли возможность восстановить работу старых, какие работы необходимо проделать. Если требуются расходные материалы, мастер сделает запрос на склад о наличии и цене. На основе этой информации будет озвучена окончательная стоимость ремонта стиральной машины.</p>
+
+                    <div class="block-question">
+                        <span class="block-question__title">Частые вопросы</span>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h5 class="mb-0">
+                                        <i class="block-question__icon"></i>
+                                        <button class="btn btn-link" >
+                                            Через какое время может быть мастер?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        После оформления заявки на сайте или нашему оператору по телефону, в течении 5 минут заявка будет передана мастеру, и он сразу направляется к вам. Среднее время прибытия к клиенту составляет 40-50 минут.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header collapsed" id="headingTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h5 class="mb-0">
+                                        <i class="block-question__icon"></i>
+                                        <button class="btn btn-link " >
+                                            Как узнать сколько будет стоит ремонт?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header collapsed" id="headingThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <h5 class="mb-0">
+                                        <i class="block-question__icon"></i>
+                                        <button class="btn btn-link ">
+                                            Сколько стоит диагностика?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header collapsed" id="headingThree1" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
+                                    <h5 class="mb-0">
+                                        <i class="block-question__icon"></i>
+                                        <button class="btn btn-link " type="button">
+                                            Будет ли у мастера детали для моей техники?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header collapsed" id="headingThree2" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                    <h5 class="mb-0">
+                                        <i class="block-question__icon"></i>
+                                        <button class="btn btn-link " type="button">
+                                            Есть ли у вас скидки или акции?
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer" id="anchor-sixth">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <div>
+                    <h2 class="h2 h2_white">Если у вас остались вопросы</h2>
+                    <span class="footer__number">Позвоните по номеру <br>
+                            <a href="tel:+74959681953">+7 (495) 968-19-53</a></span>
+                    <div class="footer-messenger">
+                        <span class="footer-messenger__title">Или напишите в мессенжер</span>
+                        <div class="footer-messenger__wrapper">
+                            <div class="footer-messenger__list">
+                                <a class="footer-messenger__link viber-icon" href="#"></a>
+                                <a class="footer-messenger__link whatsapp-icon" href="#"></a>
+                                <a class="footer-messenger__link telegram-icon" href="#"></a>
+                            </div>
+                            <span class="footer-messenger__text">кликните на значек</span>
+                        </div>
+                    </div>
+                    <span class="footer__text">Или отправьте ваш номер и мы перезвоним через 5 минут!</span>
+
+                    <div class="footer-form">
+                        <form class="main-form main-form_section-seventh">
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control main-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
+                            </div>
+                            <button type="submit" class="btn button-main btn-primary-color form-button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="footer-img"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="footer-bottom-block__copy footer-bottom-block__text">© ремонтстиральных машин 2003-2019.</span>
+                </div>
+                <div class="col-md-8">
+                    <div class="footer-bottom-block__wrapper">
+                        <span class="footer-bottom-block__wrapper-title footer-bottom-block__text">О нас в соцсетях</span>
+                        <div class="footer-bottom-block__list">
+                            <a class="footer-bottom-block__item fb-icon" href="#"></a>
+                            <a class="footer-bottom-block__item int-icon" href="#"></a>
+                            <a class="footer-bottom-block__item vk-icon" href="#"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!--MODAL START-->
+<div class="modal main-modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <span class="main-modal__title">Вызвать мастера</span>
+                <span class="main-modal__slogan">Мы перезвоним вам в течении <br> 5 минут</span>
+
+                <form class="main-form main-form_section-seventh">
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control main-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
+                    </div>
+                    <button type="submit" class="btn button-main btn-primary-color form-button">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MODAL END-->
+
+
+<!-- JAVASCRIPT ================================================== -->
+
+<!-- JS Global -->
+<script src="js/libs.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="libs/jquery-scrollspy/scrollspy.js"></script>
+<script src="js/pages/main.js"></script>
+<!-- JS Inline -->
+<script>
+    $('[data-toggle="popover"]').popover();
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+    $('.reviews-list').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        arrows: false,
+        slidesToScroll: 4,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    });
+
+
+    WOW.prototype.addBox = function(element) {
+        this.boxes.push(element);
+    };
+
+    let wow = new WOW();
+    wow.init();
+
+    $('.wow.tada').on('scrollSpy:exit', function() {
+        $(this).css({
+            'visibility': 'hidden',
+            'animation-name': 'none'
+        }).removeClass('animated');
+        wow.addBox(this);
+    }).scrollSpy();
+
+</script>
+
+
+</body>
+</html>
