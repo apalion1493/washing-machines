@@ -53,7 +53,7 @@
                             <i></i>
                             <span>washing repair</span>
                         </a>
-                        <button class="btn button-main btn-secondary-color section-info_btn-width" >Заказать звонок</button>
+                        <button class="btn button-main btn-secondary-color section-info_btn-width" data-toggle="modal" data-target="#exampleModalCenter">Заказать звонок</button>
                     </div>
                 </div>
                 <div class="col-12 order-md-3 order-xl-2 col-xl-3">
@@ -76,9 +76,9 @@
                             <a class="section-info__phone-link" href="tel:+74959681954">+7 (495) 968-19-54</a>
                         </div>
                         <div class="section-info__social">
-                            <a class="section-info__social-link section-info__social-link-vb" href="#"></a>
-                            <a class="section-info__social-link section-info__social-link-wp" href="#"></a>
-                            <a class="section-info__social-link section-info__social-link-tg" href="#"></a>
+                            <a class="section-info__social-link section-info__social-link-vb" title="Viber" href="viber://chat?number=+120345678910"></a>
+                            <a class="section-info__social-link section-info__social-link-wp" title="WhatsApp" href="whatsapp://send?phone=+120345678910"></a>
+                            <a class="section-info__social-link section-info__social-link-tg" title="Telegram" href="tg://resolve?domain=tpverstak"></a>
                         </div>
                     </div>
 
@@ -413,7 +413,7 @@
                         <div class="form-group mb-4">
                             <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
                         </div>
-                        <button type="submit" class="btn button-main btn-primary-color form-button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                        <button type="submit" class="btn button-main btn-primary-color form-button">Вызвать мастера</button>
                     </form>
                 </div>
             </div>
@@ -438,7 +438,7 @@
                 </div>
 
                 <div class="col-12">
-                    <div class="reviews-list">
+                    <div class="reviews-list" id="reviews-list">
                         <div class="review-block">
                             <div class="review-block__photo">
                                 <i style="background-image: url(img/client-face-1.png)"></i>
@@ -446,7 +446,11 @@
                             <span class="review-block__name">Василий Петрович</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button1">
+                                    <audio id="myaudio1">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -457,7 +461,11 @@
                             <span class="review-block__name">Надежда Петровна</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button2">
+                                    <audio id="myaudio2">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -468,7 +476,11 @@
                             <span class="review-block__name">Максим Иванович</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button3">
+                                    <audio id="myaudio3">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -479,7 +491,11 @@
                             <span class="review-block__name">Анастасия Сорокина</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button4">
+                                    <audio id="myaudio4">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -491,7 +507,11 @@
                             <span class="review-block__name">Василий Петрович</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button5">
+                                    <audio id="myaudio5">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -502,7 +522,11 @@
                             <span class="review-block__name">Надежда Петровна</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button6">
+                                    <audio id="myaudio6">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -513,7 +537,11 @@
                             <span class="review-block__name">Максим Иванович</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button7">
+                                    <audio id="myaudio7">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
@@ -524,56 +552,14 @@
                             <span class="review-block__name">Анастасия Сорокина</span>
                             <p class="review-block__text">Был сломан шланг насоса.</p>
                             <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
+                                <button class="review-block__audio-btn" id="button8">
+                                    <audio id="myaudio8">
+                                        <source src="http://upload.wikimedia.org/wikipedia/commons/5/59/C_major_scale.ogg" type="audio/ogg; codecs=vorbis">
+                                    </audio>
+                                </button>
                                 <span class="review-block__audio-text">Послушать отзыв</span>
                             </div>
                         </div>
-
-                        <div class="review-block">
-                            <div class="review-block__photo">
-                                <i style="background-image: url(img/client-face-1.png)"></i>
-                            </div>
-                            <span class="review-block__name">Василий Петрович</span>
-                            <p class="review-block__text">Был сломан шланг насоса.</p>
-                            <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
-                                <span class="review-block__audio-text">Послушать отзыв</span>
-                            </div>
-                        </div>
-                        <div class="review-block">
-                            <div class="review-block__photo">
-                                <i style="background-image: url(img/client-face-2.png)"></i>
-                            </div>
-                            <span class="review-block__name">Надежда Петровна</span>
-                            <p class="review-block__text">Был сломан шланг насоса.</p>
-                            <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
-                                <span class="review-block__audio-text">Послушать отзыв</span>
-                            </div>
-                        </div>
-                        <div class="review-block">
-                            <div class="review-block__photo">
-                                <i style="background-image: url(img/client-face-3.png)"></i>
-                            </div>
-                            <span class="review-block__name">Максим Иванович</span>
-                            <p class="review-block__text">Был сломан шланг насоса.</p>
-                            <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
-                                <span class="review-block__audio-text">Послушать отзыв</span>
-                            </div>
-                        </div>
-                        <div class="review-block">
-                            <div class="review-block__photo">
-                                <i style="background-image: url(img/client-face-4.png)"></i>
-                            </div>
-                            <span class="review-block__name">Анастасия Сорокина</span>
-                            <p class="review-block__text">Был сломан шланг насоса.</p>
-                            <div class="review-block__audio">
-                                <button class="review-block__audio-btn"></button>
-                                <span class="review-block__audio-text">Послушать отзыв</span>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -781,9 +767,9 @@
                         <span class="footer-messenger__title">Или напишите в мессенжер</span>
                         <div class="footer-messenger__wrapper">
                             <div class="footer-messenger__list">
-                                <a class="footer-messenger__link viber-icon" href="#"></a>
-                                <a class="footer-messenger__link whatsapp-icon" href="#"></a>
-                                <a class="footer-messenger__link telegram-icon" href="#"></a>
+                                <a class="footer-messenger__link viber-icon" title="Viber" href="viber://chat?number=+120345678910"></a>
+                                <a class="footer-messenger__link whatsapp-icon" title="WhatsApp" href="whatsapp://send?phone=+120345678910"></a>
+                                <a class="footer-messenger__link telegram-icon" title="Telegram" href="tg://resolve?domain=tpverstak"></a>
                             </div>
                             <span class="footer-messenger__text">кликните на значек</span>
                         </div>
@@ -793,12 +779,12 @@
                     <div class="footer-form">
                         <form class="main-form main-form_section-seventh">
                             <div class="form-group mb-4">
-                                <input type="text" class="form-control main-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+                                <input type="text" class="form-control main-input" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Ваше имя">
                             </div>
                             <div class="form-group mb-4">
-                                <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
+                                <input type="text" class="form-control main-input" id="exampleInputPassword2" placeholder="Номер телефона">
                             </div>
-                            <button type="submit" class="btn button-main btn-primary-color form-button" data-toggle="modal" data-target="#exampleModalCenter">Вызвать мастера</button>
+                            <button type="submit" class="btn button-main btn-primary-color form-button">Вызвать мастера</button>
                         </form>
                     </div>
                 </div>
@@ -818,9 +804,9 @@
                     <div class="footer-bottom-block__wrapper">
                         <span class="footer-bottom-block__wrapper-title footer-bottom-block__text">О нас в соцсетях</span>
                         <div class="footer-bottom-block__list">
-                            <a class="footer-bottom-block__item fb-icon" href="#"></a>
-                            <a class="footer-bottom-block__item int-icon" href="#"></a>
-                            <a class="footer-bottom-block__item vk-icon" href="#"></a>
+                            <a class="footer-bottom-block__item fb-icon" target="_blank" href="https://www.facebook.com/"></a>
+                            <a class="footer-bottom-block__item int-icon" target="_blank" href="https://www.instagram.com/"></a>
+                            <a class="footer-bottom-block__item vk-icon" target="_blank" href="https://vk.com/"></a>
                         </div>
                     </div>
                 </div>
@@ -843,10 +829,10 @@
 
                 <form class="main-form main-form_section-seventh">
                     <div class="form-group mb-4">
-                        <input type="text" class="form-control main-input" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+                        <input type="text" class="form-control main-input" id="exampleInputEmail3" aria-describedby="emailHelp" placeholder="Ваше имя">
                     </div>
                     <div class="form-group mb-4">
-                        <input type="text" class="form-control main-input" id="exampleInputPassword1" placeholder="Номер телефона">
+                        <input type="text" class="form-control main-input" id="exampleInputPassword3" placeholder="Номер телефона">
                     </div>
                     <button type="submit" class="btn button-main btn-primary-color form-button">Отправить</button>
                 </form>

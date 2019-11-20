@@ -12,3 +12,23 @@ function myFunction() {
     $('.header-navigation').toggleClass('active');
 }
 
+
+
+let container = document.getElementById('reviews-list');
+
+container.onclick = function(event) {
+    let buttonAudio = event.target;
+    if (buttonAudio.classList.contains('review-block__audio-btn')) {
+        let myaudioId = jQuery(event.target).find("audio").attr('id');
+        let myaudio = document.getElementById(myaudioId);
+        console.log(myaudioId);
+
+        if(myaudio.paused === true) {
+            document.getElementById(myaudioId).play();
+            $(buttonAudio).toggleClass('stop');
+        } else if (myaudio.paused === false) {
+            document.getElementById(myaudioId).pause();
+            $(buttonAudio).toggleClass('stop');
+        }
+    }
+};

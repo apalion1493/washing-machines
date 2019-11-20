@@ -86,6 +86,11 @@
   }
 }
 
+.review-block__audio-btn.stop {
+  background: url("../img/btn-player-stop.svg") no-repeat center;
+  background-size: 100% auto;
+}
+
 .review-block__audio {
   display: flex;
   align-items: center;
